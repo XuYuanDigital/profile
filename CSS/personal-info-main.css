@@ -113,7 +113,7 @@ html {
 .personalImage {
     position: relative;
     width: auto;
-    height: 250px;
+    height: 260px;
     text-align: center;
     top: 44px;
 }
@@ -126,8 +126,8 @@ html {
     content: "";
     border: 15px solid rgb(117 49 171);
     border-radius: 50%;
-    height: 180px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
     position: absolute;
     left: 0;
     -webkit-animation: pulsate 1.6s ease-out;
@@ -141,8 +141,8 @@ html {
 .personalImage img {
     position: relative;
     border-radius: 50%;
-    height: 180px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
     padding: 0;
     margin: 0;
     border: 15px solid transparent;
@@ -152,7 +152,7 @@ html {
 }
 
 .personalImage a:hover img {
-    transform: scale(1.06, 1.06);
+    transform: scale(1.16, 1.16);
 }
 
 .personalImage a:hover:before {
