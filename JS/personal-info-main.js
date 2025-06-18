@@ -76,9 +76,9 @@ $(function () {
                 e.append("<div class=\"col-md-4\">\n" +
                     "    <div class=\"porfolio-image img-raised\" data-aos=\"fade-up\"\n" +
                     "         data-aos-anchor-placement=\"top-bottom\">\n" +
-                    "        <a href=\"" + url + "\" title=\"点击查看详细信息\">\n" +
+                    "        <a href=\"" + url + "\" target=\"_blank\" title=\"点击查看详细信息\">\n" +
                     "            <figure class=\"portfolio-section-main\">\n" +
-                    "                <img src=\"" + img + "\" alt=\"Image\" />\n" +
+                    "                <img src=\"" + img + "\" alt=\"Image无法加载\" />\n" +
                     "                <figcaption>\n" +
                     "                    <div class=\"h4\">" + projectName + "</div>\n" +
                     "                    <p>" + brief + "</p>\n" +
